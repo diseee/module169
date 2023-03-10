@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Simple Website</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-family: Calibri, sans-serif;
+      }
+      header {
+        height: 100px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+      }
+      img {
+        height: 100%;
+        object-fit: contain;
+        padding: 10px;
+      }
+      nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        margin: 0 10px;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        padding: 10px 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+        transition: background-color 0.2s, color 0.2s;
+      }
+      nav a:hover {
+        background-color: white;
+        color: black;
+      }
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      button {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        padding: 10px 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+        transition: background-color 0.2s, color 0.2s;
+      }
+      button:hover {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="C:\Scripts\SaltyCatz-main\img\LogoSticker.png">
+      <nav>
+        <ul>
+          <li><a href="#"><button>Home</button></a></li>
+          <li><a href="#"><button>About</button></a></li>
+          <li><a href="#"><button>Contact</button></a></li>
+        </ul>
+      </nav>
+      <button onclick="window.location.href='login.html'">Login</button>
+    </header>
+    <main>
+      <h1>Welcome to My Simple Website</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis lorem at augue euismod, sit amet mollis ipsum rhoncus. Sed ac mauris sed nulla fermentum tristique eu nec turpis. Donec bibendum magna in ante consectetur, vel feugiat nulla euismod. Nullam dignissim bibendum augue vel hendrerit. Curabitur sed ligula in nisi mollis malesuada. Aenean euismod mi id enim iaculis, vel egestas nulla tincidunt. Ut consectetur, ex sit amet mattis blandit, nisi metus efficitur lacus, sed ultricies orci libero ut mauris.</p>
+    </main>
+  </body>
+</html>
